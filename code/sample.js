@@ -18,6 +18,7 @@ function isPrime(num){
     return true;
 }
 
+/* --------------------------------------------------------------------------- */
 
 let count_primes = 0;
 
@@ -29,15 +30,17 @@ for (let i=1; i<=100; i++){
 
 console.log(`There are ${count_primes} primes between 1 and 100.`);
 
-// function foo(x, condition) {
-//     if (condition) {
-//       console.log(x);
-//       const x = 2;
-//       console.log(x);
-//     }
-//   }
+/* --------------------------------------------------------------------------- */
+
+function foo(x, condition) {
+    if (condition) {
+      console.log(x);
+      const x = 2;
+      console.log(x);
+    }
+  }
   
-//   foo(1, true);
+foo(1, true);
 
 
   
